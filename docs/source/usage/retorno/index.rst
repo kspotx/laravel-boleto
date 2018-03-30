@@ -250,8 +250,8 @@ The return object implements ``SeekableIterator``, so you can do a foreach on th
 
 .. seealso::
 
-   `API return docs <https://eduardokum.github.io/laravel-boleto/namespace-Eduardokum.LaravelBoleto.Cnab.Retorno.html>`_
+   `API return docs <https://Kspotx.github.io/laravel-boleto/namespace-Kspotx.LaravelBoleto.Cnab.Retorno.html>`_
       Documentation for return objects.
 
-   `Examples <https://github.com/eduardokum/laravel-boleto/tree/master/exemplos>`_
+   `Examples <https://github.com/Kspotx/laravel-boleto/tree/master/exemplos>`_
       Examples of use

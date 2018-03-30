@@ -1004,7 +1004,7 @@ final class Util
      */
     public static function addPessoa(&$property, $obj)
     {
-        if (is_subclass_of($obj, 'Eduardokum\\LaravelBoleto\\Contracts\\Pessoa')) {
+        if (is_subclass_of($obj, 'Kspotx\\LaravelBoleto\\Contracts\\Pessoa')) {
             $property = $obj;
             return $obj;
         } elseif (is_array($obj)) {
