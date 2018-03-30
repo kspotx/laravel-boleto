@@ -36,14 +36,14 @@ class Html implements HtmlContract
             return $this->blade;
         }
 
-        if (!is_null(\Illuminate\Container\Container::getInstance()))  {
-            view()->addNamespace('BoletoHtmlRender', realpath(__DIR__ . '/view/'));
-            $this->blade = view();
-        } else {
+       // if (!is_null(\Illuminate\Container\Container::getInstance()))  {
+            //view()->addNamespace('BoletoHtmlRender', realpath(__DIR__ . '/view/'));
+            //$this->blade = view();
+        //} else {
             $blade = new Blade(realpath(__DIR__ . '/view/'), realpath(__DIR__ . '/cache/'));
             $blade->view()->addNamespace('BoletoHtmlRender', realpath(__DIR__ . '/view/'));
             $this->blade = $blade->view();
-        }
+        //}
         $blade = $this->blade->getEngineResolver()->resolve('blade')->getCompiler();
         $blade->directive('php', function($expression) {
                     return $expression ? "<?php {$expression}; ?>" : '<?php ';
