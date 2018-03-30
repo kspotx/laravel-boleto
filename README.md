@@ -8,14 +8,14 @@
 [![Build Status](https://travis-ci.org/eduardokum/laravel-boleto.svg?branch=master)](https://travis-ci.org/eduardokum/laravel-boleto)
 [![GitHub forks](https://img.shields.io/github/forks/eduardokum/laravel-boleto.svg?style=social&label=Fork)](https://github.com/eduardokum/laravel-boleto)
 
-# Laravel Boleto
+# Laravel Boleto s
 Pacote para gerar boletos, remessas e leitura de retorno.
 
 [Documentação do Projeto](https://laravel-boleto.readthedocs.io/)
 
 ## Doações
 
-**Estamos em busca de *doadores* e *patrocinadores* para ajudar a financiar parte do desenvolvimento deste pacote** 
+**Estamos em busca de *doadores* e *patrocinadores* para ajudar a financiar parte do desenvolvimento deste pacote**
 
 Este é um projeto totalmente *OpenSource*, para usa-lo, copia-lo e modifica-lo você não paga absolutamente nada. Porém para continuarmos a mante-lo de forma adequada é necessária alguma contribuição seja feita, seja auxiliando na codificação, na documentação, na realização de testes e identificação de falhas e BUGs.
 
@@ -25,7 +25,7 @@ Mas também, caso você ache que qualquer informação obtida aqui, lhe foi úti
         <img alt="Doar com Paypal" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif"/></a>
 <a target="_blank" href="https://pag.ae/bhn79Hc">
 	<img alt="Doar com Pagseguro" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/120x53-doar.gif"/></a>
-        
+
 *Agradecemos a contribuição.*
 
 ## Apoiadores
