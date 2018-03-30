@@ -1,9 +1,9 @@
 <?php
-namespace Eduardokum\LaravelBoleto\Cnab\Remessa;
+namespace Kspotx\LaravelBoleto\Cnab\Remessa;
 
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;
-use Eduardokum\LaravelBoleto\Util;
+use Kspotx\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Kspotx\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+use Kspotx\LaravelBoleto\Util;
 
 abstract class AbstractRemessa
 {

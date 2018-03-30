@@ -1,18 +1,18 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Boleto;
+namespace Kspotx\LaravelBoleto\Boleto;
 
 use Carbon\Carbon;
-use Eduardokum\LaravelBoleto\Boleto\Render\Html;
-use Eduardokum\LaravelBoleto\Boleto\Render\Pdf;
-use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Util;
+use Kspotx\LaravelBoleto\Boleto\Render\Html;
+use Kspotx\LaravelBoleto\Boleto\Render\Pdf;
+use Kspotx\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+use Kspotx\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Kspotx\LaravelBoleto\Util;
 
 /**
  * Class AbstractBoleto
  *
- * @package Eduardokum\LaravelBoleto\Boleto
+ * @package Kspotx\LaravelBoleto\Boleto
  */
 abstract class AbstractBoleto implements BoletoContract
 {

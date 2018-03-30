@@ -1,9 +1,9 @@
 <?php
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab400;
+namespace Kspotx\LaravelBoleto\Cnab\Retorno\Cnab400;
 
 use Carbon\Carbon;
-use Eduardokum\LaravelBoleto\MagicTrait;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Retorno\Cnab400\Detalhe as DetalheContract;
+use Kspotx\LaravelBoleto\MagicTrait;
+use Kspotx\LaravelBoleto\Contracts\Cnab\Retorno\Cnab400\Detalhe as DetalheContract;
 
 class Detalhe implements DetalheContract
 {

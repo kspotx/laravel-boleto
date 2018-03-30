@@ -1,9 +1,9 @@
 <?php
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno;
+namespace Kspotx\LaravelBoleto\Cnab\Retorno;
 
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Retorno;
-use Eduardokum\LaravelBoleto\Util;
+use Kspotx\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Kspotx\LaravelBoleto\Contracts\Cnab\Retorno;
+use Kspotx\LaravelBoleto\Util;
 
 class Factory
 {

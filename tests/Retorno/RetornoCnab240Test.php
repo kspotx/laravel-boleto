@@ -1,19 +1,19 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Tests\Retorno;
+namespace Kspotx\LaravelBoleto\Tests\Retorno;
 
-use Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240\Detalhe;
-use Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240\DetalheSegmentoT;
-use Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240\DetalheSegmentoU;
-use Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab240\DetalheSegmentoY;
-use Eduardokum\LaravelBoleto\Tests\TestCase;
+use Kspotx\LaravelBoleto\Cnab\Retorno\Cnab240\Detalhe;
+use Kspotx\LaravelBoleto\Cnab\Retorno\Cnab240\DetalheSegmentoT;
+use Kspotx\LaravelBoleto\Cnab\Retorno\Cnab240\DetalheSegmentoU;
+use Kspotx\LaravelBoleto\Cnab\Retorno\Cnab240\DetalheSegmentoY;
+use Kspotx\LaravelBoleto\Tests\TestCase;
 use Illuminate\Support\Collection;
 
 class RetornoCnab240Test extends TestCase
 {
     public function testRetornoSantanderCnab240()
     {
-        $retorno = \Eduardokum\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__ . '/files/cnab240/santander.ret');
+        $retorno = \Kspotx\LaravelBoleto\Cnab\Retorno\Factory::make(__DIR__ . '/files/cnab240/santander.ret');
         $retorno->processar();
 
         $this->assertNotNull($retorno->getHeader());

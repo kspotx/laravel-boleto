@@ -1,10 +1,10 @@
 <?php
-namespace Eduardokum\LaravelBoleto\Boleto\Banco;
+namespace Kspotx\LaravelBoleto\Boleto\Banco;
 
-use Eduardokum\LaravelBoleto\Boleto\AbstractBoleto;
-use Eduardokum\LaravelBoleto\CalculoDV;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Util;
+use Kspotx\LaravelBoleto\Boleto\AbstractBoleto;
+use Kspotx\LaravelBoleto\CalculoDV;
+use Kspotx\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Kspotx\LaravelBoleto\Util;
 
 class Bancoob extends AbstractBoleto implements BoletoContract
 {
@@ -137,5 +137,5 @@ class Bancoob extends AbstractBoleto implements BoletoContract
     public function getAgenciaCodigoBeneficiario(){
         return $this->getAgencia() . ' / ' . $this->getConvenio();
     }
-    
+
 }

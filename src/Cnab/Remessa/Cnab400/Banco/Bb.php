@@ -1,11 +1,11 @@
 <?php
-namespace Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\Banco;
+namespace Kspotx\LaravelBoleto\Cnab\Remessa\Cnab400\Banco;
 
-use Eduardokum\LaravelBoleto\CalculoDV;
-use Eduardokum\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Util;
+use Kspotx\LaravelBoleto\CalculoDV;
+use Kspotx\LaravelBoleto\Cnab\Remessa\Cnab400\AbstractRemessa;
+use Kspotx\LaravelBoleto\Contracts\Cnab\Remessa as RemessaContract;
+use Kspotx\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Kspotx\LaravelBoleto\Util;
 
 class Bb extends AbstractRemessa implements RemessaContract
 {

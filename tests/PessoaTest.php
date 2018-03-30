@@ -1,9 +1,9 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Tests;
+namespace Kspotx\LaravelBoleto\Tests;
 
-use Eduardokum\LaravelBoleto\Pessoa;
-use Eduardokum\LaravelBoleto\Util;
+use Kspotx\LaravelBoleto\Pessoa;
+use Kspotx\LaravelBoleto\Util;
 
 class PessoaTest extends TestCase
 {

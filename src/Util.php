@@ -1,9 +1,9 @@
 <?php
-namespace Eduardokum\LaravelBoleto;
+namespace Kspotx\LaravelBoleto;
 
 use Carbon\Carbon;
 use Illuminate\Http\UploadedFile;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Kspotx\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
 
 /**
  * Class Util
@@ -12,7 +12,7 @@ use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
  * @TODO validar processar
  * @TODO validar float nos numeros
  *
- * @package Eduardokum\LaravelBoleto
+ * @package Kspotx\LaravelBoleto
  */
 final class Util
 {

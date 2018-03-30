@@ -1,7 +1,7 @@
 <?php
-namespace Eduardokum\LaravelBoleto;
+namespace Kspotx\LaravelBoleto;
 
-use Eduardokum\LaravelBoleto\Contracts\Pessoa as PessoaContract;
+use Kspotx\LaravelBoleto\Contracts\Pessoa as PessoaContract;
 
 class Pessoa implements PessoaContract
 {
@@ -238,7 +238,7 @@ class Pessoa implements PessoaContract
         } elseif (strlen($cpf_cnpj_cei) == 10) {
             return 'CEI';
         }
-        
+
         return 'CNPJ';
     }
     /**

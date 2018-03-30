@@ -1,11 +1,11 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Tests\Boleto;
+namespace Kspotx\LaravelBoleto\Tests\Boleto;
 
-use Eduardokum\LaravelBoleto\Boleto\Banco as Boleto;
-use Eduardokum\LaravelBoleto\Boleto\Render\Pdf;
-use Eduardokum\LaravelBoleto\Pessoa;
-use Eduardokum\LaravelBoleto\Tests\TestCase;
+use Kspotx\LaravelBoleto\Boleto\Banco as Boleto;
+use Kspotx\LaravelBoleto\Boleto\Render\Pdf;
+use Kspotx\LaravelBoleto\Pessoa;
+use Kspotx\LaravelBoleto\Tests\TestCase;
 
 class BoletoTest extends TestCase
 {
@@ -418,7 +418,7 @@ class BoletoTest extends TestCase
         $this->assertNotNull($boleto->renderHTML());
         $this->assertNotNull($boleto->renderPDF());
     }
-    
+
     public function testBoletoBnb()
     {
         $boleto = new Boleto\Bnb(

@@ -1,10 +1,10 @@
 <?php
-namespace Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab400\Banco;
+namespace Kspotx\LaravelBoleto\Cnab\Retorno\Cnab400\Banco;
 
-use Eduardokum\LaravelBoleto\Cnab\Retorno\Cnab400\AbstractRetorno;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Cnab\RetornoCnab400;
-use Eduardokum\LaravelBoleto\Util;
+use Kspotx\LaravelBoleto\Cnab\Retorno\Cnab400\AbstractRetorno;
+use Kspotx\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Kspotx\LaravelBoleto\Contracts\Cnab\RetornoCnab400;
+use Kspotx\LaravelBoleto\Util;
 
 class Sicredi extends AbstractRetorno implements RetornoCnab400
 {
@@ -218,7 +218,7 @@ class Sicredi extends AbstractRetorno implements RetornoCnab400
     protected function processarDetalhe(array $detalhe)
     {
         $d = $this->detalheAtual();
-		
+
         $d->setNossoNumero($this->rem(48, 62, $detalhe))
             ->setNumeroControle($this->rem(117, 126, $detalhe))
             ->setNumeroDocumento($this->rem(117, 126, $detalhe))

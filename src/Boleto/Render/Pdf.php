@@ -1,10 +1,10 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Boleto\Render;
+namespace Kspotx\LaravelBoleto\Boleto\Render;
 
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Render\Pdf as PdfContract;
-use Eduardokum\LaravelBoleto\Util;
+use Kspotx\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Kspotx\LaravelBoleto\Contracts\Boleto\Render\Pdf as PdfContract;
+use Kspotx\LaravelBoleto\Util;
 
 class Pdf extends AbstractPdf implements PdfContract
 {
@@ -465,7 +465,7 @@ class Pdf extends AbstractPdf implements PdfContract
         if ($nameFile == null) {
             $nameFile = str_random(32);
         }
-        
+
         return $this->Output($nameFile . '.pdf', $dest, $this->print);
     }
 
